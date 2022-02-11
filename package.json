@@ -1,0 +1,21 @@
+{
+  "name": "ppac",
+  "version": "1.0.0",
+  "description": "Estudios realizados en el programa de Profundización Para Altas Capacidades",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "collatz": "node collatz-conjeture/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "prompt-sync": "^4.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.8.0",
+    "eslint-config-google": "^0.14.0"
+  }
+}
