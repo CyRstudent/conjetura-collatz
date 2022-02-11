@@ -11,4 +11,12 @@ do {
 	nArr.push(n);
 } while (n !== 1);
 console.log('Done');
-document.write(`<p style="text-align:center"><h3>${nArr.join(' ')}</h3></p>`);
+document.writeln(`
+<html>
+	<body>
+		<p style="text-align:center">
+			<h4>${nArr.join(' => ')}</h4>
+		</p>
+	</body>
+</html>
+`);
