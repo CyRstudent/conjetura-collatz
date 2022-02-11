@@ -5,7 +5,8 @@
   "main": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "collatz": "node collatz-conjeture/index.js"
+    "web":"node collatz-conjeture/web/server.js",
+    "local": "node collatz-conjeture/local/index.js"
   },
   "keywords": [],
   "author": "",
