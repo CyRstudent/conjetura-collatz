@@ -11,4 +11,4 @@ do {
 	nArr.push(n);
 } while (n !== 1);
 console.log('Done');
-document.write(`<h4>${nArr.join(' ')}</h4>`);
+document.write(`<p style="text-align:center"><h3>${nArr.join(' ')}</h3></p>`);
