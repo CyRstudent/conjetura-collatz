@@ -1,8 +1,3 @@
-/*
-		<p style="text-align:center">
-		Simulador de la conjetura de collatz</p>
- */
-
 const throwErr = async () =>{
 	const text = `
 	<body>
