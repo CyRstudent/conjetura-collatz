@@ -56,9 +56,11 @@ if (
 		document.writeln(`
 	<html>
 		<body>
-			<p style="text-align:center">
-				<h4>${nArr.join(' => ')}</h4>
-			</p>
+			<h4>
+				<p style="text-align:center">
+				${nArr.join(' => ')}
+				</p>
+			</h4>
 		</body>
 	</html>
 	`);
